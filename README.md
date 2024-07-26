@@ -44,7 +44,7 @@ To use this template for a new Rust project:
         gh repo create <your-project-name> --template IrregularCelery/template.rs --public
         ```
 
-        >_useful tips:_
+        > [!TIP]
         >* Change `--public` to `--private` to create private repositories.
         >* Add `--clone` flag to clone your created repository right away.
 
