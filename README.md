@@ -41,8 +41,13 @@ To use this template for a new Rust project:
     
     * **Using Git CLI**: Clone this repository using the command:
         ```
-        gh repo create <your-project-name> --template IrregularCelery/template.rs
+        gh repo create <your-project-name> --template IrregularCelery/template.rs --public
         ```
+
+        >_useful tips:_
+        >* Change `--public` to `--private` to create private repositories.
+        >* Add `--clone` flag to clone your created repository right away.
+
 3.  Change the default name:
     * In `Cargo.toml` file, change `name` and `default-run` under `[package]` to the name of your project.
     ```diff
